@@ -4,58 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <!--Header-->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+    <header class="header">
+      <nav class="navigation-logo">
+        <a class="logo-header link" href="./index.html"
+          >Web<span class="studio">Studio</span></a
+        >
+        <ul class="social list">
+          <li>
+            <a class="social-part link" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="social-part link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="social-part link" href="#">Contacts</a>
+          </li>
         </ul>
       </nav>
       <!--contact informations-->
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-navigation">
+        <ul class="header list">
+          <li>
+            <a class="header-soc link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-soc link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
       <section>
         <h2 hidden>list</h2>
-        <ul>
+        <ul class="headlines list">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="headlines-description">Strategy</h3>
+            <p class="page-font">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="headlines-description">Punctuality</h3>
+            <p class="page-font">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="headlines-description">Diligence</h3>
+            <p class="page-font">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="headlines-description">Technologies</h3>
+            <p class="page-font">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -63,9 +86,9 @@
         </ul>
       </section>
       <!--pictures-->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
+      <section class="headlines list">
+        <h2 class="section-title">What are we doing</h2>
+        <ul class="headlines list">
           <li>
             <img
               src="./images/imagies-1.jpg"
@@ -82,7 +105,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="headlines-list">
             <img
               src="./images/imagies-3.jpg"
               alt="phone"
@@ -93,55 +116,57 @@
         </ul>
       </section>
       <!--team-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="headlines-team list">
+        <h2 class="team-section">Our Team</h2>
+        <ul class="team list">
+          <li class="team-color">
             <img
               src="./images/imagies-team-1.jpg"
               alt="photo Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="headlines-description">Mark Guerrero</h3>
+            <p class="page-font">Product Designer</p>
           </li>
-          <li>
+          <li class="team-color">
             <img
               src="./images/imagies-team-2.jpg"
               alt="photo Tom Ford"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="headlines-description">Tom Ford</h3>
+            <p class="page-font">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-color">
             <img
               src="./images/imagies-team-3.jpg"
               alt="photo Camila Garcia"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="headlines-description">Camila Garcia</h3>
+            <p class="page-font">Marketing</p>
           </li>
-          <li>
+          <li class="team-color">
             <img
               src="./images/imagies-team-4.jpg"
               alt="photo Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="headlines-description">Daniel Wilson</h3>
+            <p class="page-font">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="logo-header link" href="./index.html"
+        >Web<span class="studio-footer">Studio</span></a
+      >
+      <p class="footer-page">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
