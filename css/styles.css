@@ -98,10 +98,6 @@ body {
   cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--color-ocean);
-}
 /**-----main-----**/
 
 .headlines-description {
@@ -203,4 +199,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
 }
