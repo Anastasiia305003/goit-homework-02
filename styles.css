@@ -96,6 +96,11 @@ body {
   color: var(--color-white);
   cursor: pointer;
 }
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
+}
 /**-----main-----**/
 
 .headlines-description {
