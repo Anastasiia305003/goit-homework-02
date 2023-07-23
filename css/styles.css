@@ -125,8 +125,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  background-color: var(--color-white);
   color: var(--color-grey);
+  background-color: var(--color-white);
 }
 
 .headlines-team {
@@ -139,6 +139,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue-modal);
+  background-color: var(--color-white);
+}
+.team-color {
+  background-color: var(--color-white);
 }
 .headlines-description {
   font-size: 20px;
