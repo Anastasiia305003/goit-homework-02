@@ -89,12 +89,18 @@ body {
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--color-iris);
   color: var(--color-white);
   cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
 }
 /**-----main-----**/
 
@@ -120,6 +126,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey);
+  background-color: var(--color-white);
 }
 
 .headlines-team {
@@ -174,6 +181,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .button-list {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -183,7 +191,6 @@ body {
   background-color: var(--color-cloud);
   color: var(--color-iris);
   cursor: pointer;
-  border-color: var(--color-cloud);
 }
 .button-list:hover,
 .button-list:focus {
@@ -195,4 +202,5 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
