@@ -109,7 +109,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-navy-blue);
+  color: var(--color-slate);
 }
 .page-font {
   font-size: 16px;
@@ -143,6 +143,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.2;
   color: var(--color-grey);
 }
 .page-font {
@@ -189,7 +190,6 @@ body {
   background-color: var(--color-cloud);
   color: var(--color-iris);
   cursor: pointer;
-  border-color: var(--color-cloud);
 }
 .button-list:hover,
 .button-list:focus {
