@@ -54,7 +54,6 @@ body {
 /**------header-----**/
 
 .header-navigation {
-  font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -62,6 +61,7 @@ body {
   color: var(--color-slate);
 }
 .header-soc {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
